@@ -1,0 +1,12 @@
+2.
+Untuk kasus 2a dan 2b, hal yang terjadi adalah aplikasi menjadi crash.
+Hal ini terjadi karena ada exception yang tidak kita catch, tepatnya adalah NumberFormatException. Exception
+ini terjadi karena nilai operand tidak memiliki nilai / memiliki operand yang memiliki nilai yang tidak valid.
+Hal yang dapat kita lakukan untuk memperbaiki error ini adalah dengan melakukan exception handling (dapat menggunakan try-catch block).
+
+3.
+Saya memberikan breakpoint pada click listener btnKali dan operand2.
+Dengan menggunakan step-over, step-into, dan step-out, saya bisa melihat jelas asal usul dari kode yang kita ketik
+(seperti library dan package yang terkait dengan kode yang ditulis, dan alamat memorinya). Selain itu, saya juga
+bisa melihat keadaan/state setiap variabel yang sudah dideklarasi. Hal ini sangat membantu jika kita ingin melakukan
+proses pencarian bug dalam aplikasi yang kita buat karena kita bisa melihat nilai variabel tertentu saat berada pada baris kode tertentu.
