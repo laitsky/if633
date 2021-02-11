@@ -1,0 +1,9 @@
+Penambahan beberapa kata terjadi karena kita menambahkan kata pada metode fab.setOnClickListener.
+Kita akan mengambil urutan kata selanjutnya berdasarkan ukuran linked list mDaftarKata, yang didapatkan dengan metode size().
+Kemudian kita akan memberikan notifikasi terhadap recycler view untuk memberi tahu bahwa kata telah ditambahkan, dan
+setiap event klik akan langsung scroll ke kata terakhir yang disebabkan oleh smoothScrollToPosition().
+
+Pemilihan item terjadi karena kita membuat event listener pada DaftarKataAdapter. Event listener yang digunakan adalah OnClickListener. Saat suatu
+elemen milik adapter diklik, class KataViewHolder akan menerima notifikasi karena kita telah melakukan binding terhadap constructor class tersebut
+dengan setOnClickListener. Karena kita memberikan notifikasi bahwa ada event click dengan metode notifyDataSetChanged, maka KataViewHolder akan mengetahui
+bahwa suatu event click telah terjadi. 
