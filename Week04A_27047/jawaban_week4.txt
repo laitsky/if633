@@ -1,0 +1,7 @@
+Hasil kesimpulan pengujian app:
+Pengiriman data antar activity dapat terjadi karena kita menggunakan fitur yang bernama Intent.
+Intent merupakan suatu fitur yang dapat digunakan untuk melakukan banyak hal, yang tujuan utamanya adalah
+mendeskripsikan suatu aksi yang harus dilakukan oleh aplikasi. Banyak hal yang dapat dilakukan oleh intent,
+seperti membuka browser, dial, dan camera. Untuk mengirim data tertentu, kita dapat menggunakan method dari Intent
+yaitu putExtra() yang memiliki 2 parameter: key dan value pair, yang nantinya digunakan untuk mengirim data. Data tersebut
+akan diidentifikasi melalui key yang diberikan dan valuenya menjadi parameter kedua.
