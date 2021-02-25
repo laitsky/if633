@@ -1,0 +1,4 @@
+Berdasarkan hasil percobaan, aplikasi dapat menggambar di kanvas sesuai dengan bentuk yang diinginkan,
+misalnya persegi, oval, line, dan path. Dibantu dengan SeekBar pada Android, kita dapat mengatur
+intensitas warna sehingga kita dapat mengubah warna saat drawing terjadi. Selain itu, kita juga dapat mengimplementasikan
+fitur clear yang akan melakukan reset canvas ke posisi awal (bersih) dengan mengklik tombol yang berada di atas kiri view.
