@@ -1,0 +1,5 @@
+1. Ketika layar disentuh, maka akan ada efek lingkaran yang membesar lalu mengecil.
+2. Ketika gambar kuda disentuh, maka ia akan membuat efek seperti bergerak (namun bukan video). Efek bergerak tersebut dihasilkan
+dari banyak array gambar yang diputar dalam jangka waktu cepat.
+3. Ketika tombol spring disentuh, maka ia akan menampilkan efek animasi seperti spring (pegas), dan ketika tombol
+fling disentuh, ia akan menampilkan efek fling, yang berputar-putar.
