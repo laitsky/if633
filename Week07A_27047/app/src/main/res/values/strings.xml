@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Week07A_27047</string>
+    <string name="ambil_foto">Ambil Foto</string>
+    <string name="ambil_video">Ambil Video</string>
 </resources>
