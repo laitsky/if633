@@ -1,0 +1,7 @@
+Saat kita menekan tombol foto atau video, maka tombol itu akan melakukan event trigger terhadap event click melalui
+onClickListener. onClickListener akan memanggil intent ACTION_IMAGE_CAPTURE yang nantinya akan memanggil activity
+takePictureIntent dengan REQUEST_IMAGE_CAPTURE. Hal tersebut juga berlaku untuk pengambilan video, dengan definisi makro yang berbeda.
+
+Daftar video di galeri dapat terbuat karena dengan bantuan RecyclerView. class SumberVideo membutuhkan interface Serializable karena 
+class tersebut akan digunakan untuk melakukan passing object ke activity. Kemudian kita akan menggunakan bantuan linked list untuk mengisi
+daftarVideo, yang digunakan sebagai dummy data untuk mengisi data di galeri.
