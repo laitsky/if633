@@ -1,0 +1,6 @@
+Hasil pengujian:
+1. Ketika FAB (tombol add) ditekan, maka intent akan mengalihkan activity ke DetilActivity.
+2. Di DetilActivity, kita akan diminta untuk mengisi data-data: NIM, nama lengkap, email, dan nomor hp.
+3. Ketika kita klik menyimpan, maka data tersebut akan disimpan di SQLite menggunakan Room Persistence Library dan disimpan dalam MahasiswaRoomDatabase.
+4. Jika database mahasiswa tidak kosong, maka MainActivity akan mengisi data mahasiswa. 
+5. Menggunakan menu yang berada di atas kanan, kita dapat melakukan operasi DeleteAll pada MahasiswaDAO untuk menghapus semua entry pada tabel mahasiswa.
