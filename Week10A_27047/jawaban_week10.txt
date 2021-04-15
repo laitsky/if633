@@ -1,0 +1,5 @@
+- AsyncTask digunakan untuk melakukan concurrent programming, dimana biasanya
+dipakai pada aksi yang menggunakan resource besar pada thread utama.
+- AsyncTaskLoader merupakan suatu pendekatan yang dilakukan untuk
+menampilkan loading progress bar untuk asynchronous task.
+- Started Services merupakan service yang dijalankan oleh aplikasi yang berjalan di background.
