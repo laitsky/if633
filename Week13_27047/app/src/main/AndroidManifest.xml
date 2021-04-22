@@ -30,6 +30,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".TambahObject"
+            android:label="@string/title_activity_tambah_object"
+            android:parentActivityName=".MapsActivity"></activity>
+        <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">
             <intent-filter>

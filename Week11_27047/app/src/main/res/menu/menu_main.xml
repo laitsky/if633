@@ -3,8 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="id.ac.umn.week11_27047.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/activity_setting"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cari"
+        android:orderInCategory="100"
+        android:title="Cari Mahasiswa"
         app:showAsAction="never" />
 </menu>
